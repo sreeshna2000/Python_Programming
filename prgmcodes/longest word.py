@@ -1,0 +1,6 @@
+str = input("Enter a String: ")
+word_list = str.split()
+longest_word = max(word_list, key = len)
+pos = str.index(longest_word)
+print("Longest word: ",longest_word)
+print("Position of Longest word:",pos )
